@@ -1,0 +1,21 @@
+{
+	"name": "v4l2-d",
+	"authors": [
+		"nonanonno"
+	],
+	"copyright": "Copyright © 2019",
+	"description": "v4l2 Bindings",
+	"license": "BSD 3-clause",
+	"configurations": [
+		{
+			"name":"source",
+			"targetType": "sourceLibrary"
+		},
+		{
+			"name": "example",
+			"targetType": "executable",
+			"mainSourceFile": "examples/app.d",
+			"targetName": "example"
+		}	
+	]
+}
